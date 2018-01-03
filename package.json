@@ -1,0 +1,21 @@
+{
+  "name": "copy-static-files-plugin",
+  "version": "1.0.0",
+  "description": "copy assets to other project or directory",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "babel src/ --out-dir dist/"
+  },
+  "author": "jqy",
+  "license": "ISC",
+  "dependencies": {
+	"glob": "^7.1.2",
+    "pify": "^3.0.0"
+  },
+  "devDependencies": {
+	"babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
